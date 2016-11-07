@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WightView</string>
+    <string name="fragment_name">fragment_name</string>
+    <string name="old">小姐今年%1$d岁了</string>
+</resources>

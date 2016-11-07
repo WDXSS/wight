@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextView">
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_color" format="reference|color"/>
+    </declare-styleable>
+
+
+
+
+
+    <declare-styleable name="CustomView">
+        <attr name="custom_name" format="string" localization="suggested"/>
+        <attr name="custom_text_content" format="string" localization="suggested"/>
+        <attr name="custom_edit_content" format="string" localization="suggested"/>
+        <attr name="custom_edit_hint" format="string" />
+        <attr name="custom_edit_visible">
+            <enum name="Visible" value="0"></enum>
+            <enum name="Gone" value="8"></enum>
+        </attr><attr name="custom_text_visible">
+            <enum name="Visible" value="0"></enum>
+            <enum name="Gone" value="8"></enum>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="ValidEditText">
+        <attr name="nullable"  format="boolean"/>
+        <attr name="nullableMsg" format="string|reference" />
+        <attr name="maxLength" format="integer" />
+        <attr name="maxLengthMsg" format="string|reference" />
+        <attr name="minLength" format="integer" />
+        <attr name="minLengthMsg" format="string|reference" />
+        <attr name="range" format="string" />
+        <attr name="rangeMsg" format="string|reference" />
+        <attr name="toast" format="boolean" />
+
+    </declare-styleable>
+
+
+    <declare-styleable name="ValidLimitEditText">
+        <attr name="limitTextSize" format="integer"></attr>
+        <attr name="maxLimitTextNum" format="integer"></attr>
+        <attr name="normalTextColor" format="color"></attr>
+        <attr name="warnTextColor" format="color"></attr>
+        <attr name="showlimitText" format="boolean"></attr>
+        <attr name="showClear" format="boolean" />
+    </declare-styleable>
+
+</resources>
